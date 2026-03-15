@@ -1,0 +1,144 @@
+This outline is structured specifically for your Python-based engine. It follows a clinical, "Data-First" approach where the **Base Case** is the primary narrative, and the technical math is clearly separated by methodology.
+
+---
+
+# **Project Valuation Report: [Company Name] ([Ticker])**
+
+**Environment:** Python / VS Code (Modular DCF Engine)
+
+**Data Sources:** Financial Modeling Prep (FMP) & Yahoo Finance
+
+---
+
+## **I. EXECUTIVE SUMMARY**
+
+### **1. Market Snapshot**
+
+* **Company Name:** [Name]
+* **Ticker:** [Ticker]
+* **Current Share Price:** $[Price]
+* **Shares Outstanding:** [000.0M]
+* **Market Capitalization:** $[00.0B]
+
+### **2. Valuation Results Summary**
+
+**Table A: Intrinsic Valuation (DCF Methods)**
+| Methodology | Bear Case | **Base Case** | Bull Case |
+| :--- | :--- | :--- | :--- |
+| **DCF: Perpetuity Growth** | $00.00 | **$00.00** | $00.00 |
+| **DCF: Exit Multiple** | $00.00 | **$00.00** | $00.00 |
+
+**Table B: Relative Valuation (Comp Analysis)**
+| Methodology | Bear Case | **Base Case** | Bull Case |
+| :--- | :--- | :--- | :--- |
+| **CCA: EV/EBITDA Multiple** | $00.00 | **$00.00** | $00.00 |
+| **CCA: P/E Ratio** | $00.00 | **$00.00** | $00.00 |
+
+---
+
+## **II. MODEL ASSUMPTIONS & PARAMETERS**
+
+*This section defines the "Toggles" used by the Python engine to generate the Base Case.*
+
+* **Forecast Period:** 5 Years (Fiscal Years 2026–2030)
+* **Revenue CAGR (Base Case):** 0.0%
+* **Target EBITDA Margin (Year 5):** 00.0%
+* **Effective Tax Rate:** 00.0%
+* **WACC (Calculated):** 0.0% (Rf: 0.0% | Beta: 0.0 | ERP: 0.0%)
+* **Terminal Growth Rate ():** 0.0%
+* **Target Exit Multiple:** 0.0x
+
+---
+
+## **III. INTRINSIC VALUATION: PERPETUITY GROWTH METHOD**
+
+### **1. Free Cash Flow to the Firm (FCFF) Forecast**
+
+* *Table showing Year 1 through Year 5:*
+* EBIT  (1-t)
+* (+) Depreciation & Amortization
+* (-) Capital Expenditures
+* (-) Change in Net Working Capital
+* **(=) Unlevered Free Cash Flow**
+
+
+
+### **2. Terminal Value & Equity Bridge**
+
+* **Terminal Value ():** $[00.0B]
+* **Enterprise Value:** Sum of PV of FCF + PV of TV
+* **(-) Net Debt:** (Total Debt - Cash)
+* **(-) Minority Interest / Preferreds:** $[0.0B]
+* **(=) Total Equity Value:** $[00.0B]
+* **Implied Share Price:** **$[00.00]**
+
+### **3. Sensitivity Analysis**
+
+* *Grid:* WACC (Y-axis) vs. Terminal Growth Rate (X-axis).
+
+---
+
+## **IV. INTRINSIC VALUATION: EXIT MULTIPLE METHOD**
+
+### **1. Terminal Value Calculation**
+
+* **Year 5 Forecasted EBITDA:** $[000.0M]
+* **Assumed Exit Multiple (EV/EBITDA):** 0.0x
+* **Terminal Value:** $[00.0B]
+
+### **2. Equity Bridge**
+
+* **Enterprise Value:** $[00.0B]
+* **(=) Total Equity Value:** $[00.0B]
+* **Implied Share Price:** **$[00.00]**
+
+### **3. Sensitivity Analysis**
+
+* *Grid:* WACC (Y-axis) vs. Exit Multiple (X-axis).
+
+---
+
+## **V. RELATIVE VALUATION: COMPARABLE COMPANY ANALYSIS**
+
+### **1. Peer Group Metrics**
+
+| Ticker | Company Name | EV/EBITDA (TTM) | P/E Ratio (TTM) |
+| --- | --- | --- | --- |
+| [TKR] | Peer A | 0.0x | 0.0x |
+| [TKR] | Peer B | 0.0x | 0.0x |
+| **MEDIAN** | — | **0.0x** | **0.0x** |
+
+### **2. Implied Valuation**
+
+* **Value via EV/EBITDA:** (Peer Median  Target EBITDA)  Share Price.
+* **Value via P/E Ratio:** (Peer Median  Target EPS)  Share Price.
+
+---
+
+## **VI. SYNTHESIS & CONCLUSION**
+
+* **Football Field Chart:** Visual range of all 4 valuation outputs.
+* **Final Base Case Weighted Average:** **$[00.00]**
+
+---
+
+## **VII. APPENDICES**
+
+### **Appendix A: Bull Case (High Performance)**
+
+* *Full calculation tables for all 4 methods using Bull Case assumptions (e.g., higher margins/multiples).*
+
+### **Appendix B: Bear Case (Stress Test)**
+
+* *Full calculation tables for all 4 methods using Bear Case assumptions (e.g., lower growth/higher WACC).*
+
+
+
+
+
+
+
+'background_color': '#F2F2EB',      # Page background color (light beige)
+    'title_color': '#0A0A0A',            # Main title and header text (dark black)
+    'text_color': '#4A4A4A',             # Body text (dark gray)
+    'line_color': '#124734',  
